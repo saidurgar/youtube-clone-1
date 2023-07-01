@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>YouTube Clone</title>
+    <link rel="stylesheet" href="styles/nav.css">
+    <link rel="stylesheet" href="styles/index.css">
+</head>
+<body>
+    <nav>
+        <div class="left">
+             <div class="icon">
+                <img src="images/icon.png">
+             </div>
+             <div class="logo">
+                <img src="images/Youtube-Logo.png">
+             </div>
+        </div>
+        <div class="middle">
+            <div class="input">
+                <input type="search" placeholder="Search" id="search">
+                <button type="button" onclick="displaySearchResult()">
+                    <img src="images/search.png" alt="search_logo" id="search_logo">
+                </button>
+            </div>
+            <div class="icon">
+                <img src="images/mic.png" alt="">
+            </div>
+        </div>
+        <div class="right">
+            <div class="icon">
+                <img src="images/Create.png" alt="">
+            </div>
+            <div class="icon">
+                <img src="images/apps.png" alt="">
+            </div>
+            <div class="icon">
+                <img src="images/notifications.png" alt="">
+            </div>
+            <div class="icon">
+                <img src="images/Profile-pic.png" alt="">
+            </div> 
+        </div>
+    </nav>
+    <div class="main-container">
+        <aside class="aside">
+            <div class="upper-aside">
+                <div class="inner-upper-aside">
+                    <img src="images/home.png" alt="">
+                    <div class="text">
+                        Home
+                    </div>
+                </div>
+                <div class="inner-upper-aside">
+                    <img src="images/explore.png" alt="">
+                    <div class="text">
+                        Explore
+                    </div>
+                </div>
+                <div class="inner-upper-aside">
+                    <img src="images/subscription.png" alt="">
+                    <div class="text">
+                        Subscriptions
+                    </div>
+                </div>  
+            </div>
+            <div class="middle-aside">
+                <div class="upper-aside">
+                    <div class="inner-upper-aside">
+                        <img src="images/library.png" alt="">
+                        <div class="text">
+                            Library
+                        </div>
+                    </div>
+                    <div class="inner-upper-aside">
+                        <img src="images/history.png" alt="">
+                        <div class="text">
+                            History
+                        </div>
+                    </div>
+                    <div class="inner-upper-aside">
+                        <img src="images/yourVideo.png" alt="">
+                        <div class="text">
+                            Your Videos
+                        </div>
+                    </div>
+                    <div class="inner-upper-aside">
+                        <img src="images/watchLater.png" alt="">
+                        <div class="text">
+                            Watch Later
+                        </div>
+                    </div>
+                    <div class="inner-upper-aside">
+                        <img src="images/likedVideos.png" alt="">
+                        <div class="text">
+                            Liked Videos
+                        </div>
+                    </div>
+                    <div class="inner-upper-aside">
+                        <img src="images/showMore.png" alt="">
+                        <div class="text">
+                            Show More
+                        </div>
+                    </div> 
+                </div>
+            </div>
+            <div class="subscription-aside">
+                <div class="upper-aside">
+                    <div class="inner-upper-aside">
+                        <img src="images/p1.png" alt="">
+                        <div class="text">
+                            James Gouse
+                        </div>
+                    </div>
+                    <div class="inner-upper-aside">
+                        <img src="images/p2.png" alt="">
+                        <div class="text">
+                            Alan Cooper
+                        </div>
+                    </div>
+                    <div class="inner-upper-aside">
+                        <img src="images/p3.png" alt="">
+                        <div class="text">
+                            Marcus Levin
+                        </div>
+                    </div>
+                    <div class="inner-upper-aside">
+                        <img src="images/p4.png" alt="">
+                        <div class="text">
+                            Skylar Dias
+                        </div>
+                    </div>
+                    <div class="inner-upper-aside">
+                        <img src="images/p5.png" alt="">
+                        <div class="text">
+                            Alexis Sears
+                        </div>
+                    </div>
+                    <div class="inner-upper-aside">
+                        <img src="images/p6.png" alt="">
+                        <div class="text">
+                            Jesica Lambert
+                        </div>
+                    </div>
+                    <div class="inner-upper-aside">
+                        <img src="images/p7.png" alt="">
+                        <div class="text">
+                            Anna White
+                        </div>
+                    </div>
+                    <div class="inner-upper-aside">
+                        <img src="images/showMore.png" alt="">
+                        <div class="text">
+                            Show 13 more
+                        </div>
+                    </div>
+                     
+                </div>
+            </div>
+            <div class="explore-aside">
+
+            </div>
+        </aside>
+        
+        <div id="videos-container">
+            <h4>Loading...</h4>
+        </div>
+        
+        
+    </div>
+<script src="scripts/index.js"></script>
+</body>
+</html>
